@@ -1,0 +1,49 @@
+
+C:\Users\sara_>dotnet --version
+2.1.500
+
+PS C:\Users\sara_\CSharp_stack> dotnet new console -o MyFirstCSharp
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on MyFirstCSharp\MyFirstCSharp.csproj...
+  Restoring packages for C:\Users\sara_\CSharp_stack\MyFirstCSharp\MyFirstCSharp.csproj...
+  Generating MSBuild file C:\Users\sara_\CSharp_stack\MyFirstCSharp\obj\MyFirstCSharp.csproj.nuget.g.props.
+  Generating MSBuild file C:\Users\sara_\CSharp_stack\MyFirstCSharp\obj\MyFirstCSharp.csproj.nuget.g.targets.
+  Restore completed in 122.07 ms for C:\Users\sara_\CSharp_stack\MyFirstCSharp\MyFirstCSharp.csproj.
+
+Restore succeeded.
+PS C:\Users\sara_\CSharp_stack> cd MyFirstCSharp
+PS C:\Users\sara_\CSharp_stack\MyFirstCSharp> dotnet build
+Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 25.22 ms for C:\Users\sara_\CSharp_stack\MyFirstCSharp\MyFirstCSharp.csproj.
+  MyFirstCSharp -> C:\Users\sara_\CSharp_stack\MyFirstCSharp\bin\Debug\netcoreapp2.1\MyFirstCSharp.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.44
+PS C:\Users\sara_\CSharp_stack\MyFirstCSharp> dotnet run
+Hello World!
+PS C:\Users\sara_\CSharp_stack\MyFirstCSharp>
+
+PS C:\Users\sara_\CSharp_stack\MyFirstCSharp> dotnet bin/debug/netcoreapp2.1/MyFirstCSharp.dll
+Hello World!
+PS C:\Users\sara_\CSharp_stack\MyFirstCSharp>
+
+****************************
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysql -u root -p
+Enter password: ****
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 16
+Server version: 8.0.13 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
